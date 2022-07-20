@@ -8,7 +8,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/item_unsplash_photo.xml" value="0.22735507246376813" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/gradient.xml" value="0.155" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/fragment_gallery.xml" value="0.22735507246376813" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/item_unsplash_photo.xml" value="0.4" />
       </map>
     </option>
   </component>
