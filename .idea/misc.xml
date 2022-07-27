@@ -8,7 +8,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.178" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/gradient.xml" value="0.155" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/ic_error.xml" value="0.178" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/ic_launcher_background.xml" value="0.178" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/ic_search.xml" value="0.178" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/drawable/ic_user.xml" value="0.178" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/fragment_gallery.xml" value="0.22735507246376813" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/item_unsplash_photo.xml" value="0.16799999999999998" />
