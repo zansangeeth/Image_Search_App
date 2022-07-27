@@ -17,6 +17,7 @@
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/fragment_gallery.xml" value="0.22735507246376813" />
         <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/item_unsplash_photo.xml" value="0.16799999999999998" />
+        <entry key="..\:/ImageSearchApp-Part-1_Project-Setup/ImageSearchApp-Part-1_Project-Setup/app/src/main/res/layout/unsplash_photo_load_state_footer.xml" value="0.11302083333333333" />
       </map>
     </option>
   </component>
