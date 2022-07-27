@@ -12,7 +12,7 @@ import com.codinginflow.imagesearchapp.databinding.UnsplashPhotoLoadStateFooterB
  **@Project -> Image Search App
  **@Author -> Sangeeth on 7/27/2022
  */
-class UnsplashPhotoLoadStateAdapter: LoadStateAdapter<UnsplashPhotoLoadStateAdapter.LoadStateViewHolder>() {
+class UnsplashPhotoLoadStateAdapter(private val retry : () -> Unit): LoadStateAdapter<UnsplashPhotoLoadStateAdapter.LoadStateViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, loadState: LoadState): LoadStateViewHolder {
         val binding = UnsplashPhotoLoadStateFooterBinding.inflate(LayoutInflater.from(parent.context),  parent, false)
@@ -23,13 +23,19 @@ class UnsplashPhotoLoadStateAdapter: LoadStateAdapter<UnsplashPhotoLoadStateAdap
         holder.bind(loadState)
     }
 
-    class LoadStateViewHolder(private val binding : UnsplashPhotoLoadStateFooterBinding) :
+    inner class LoadStateViewHolder(private val binding : UnsplashPhotoLoadStateFooterBinding) :
             RecyclerView.ViewHolder(binding.root){
 
+        init {
+            binding.btnRetry.setOnClickListener {
+                retry.invoke()
+            }
+        }
                 fun bind(loadState: LoadState){
                     binding.apply {
                         progressBar.isVisible = loadState is LoadState.Loading
-                        progressBar.isVisible = loadState is LoadState.Loading
+                        btnRetry.isVisible = loadState !is LoadState.Loading
+                        textViewError.isVisible = loadState !is LoadState.Loading
                     }
                 }
             }
